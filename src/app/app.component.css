@@ -1,0 +1,8 @@
+.img {
+   background: url('https://www.saga.co.uk/contentlibrary/saga/publishing/verticals/technology/apps/shutterstock_240459751.jpg');
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    position: fixed;
+    background-size: cover;
+}

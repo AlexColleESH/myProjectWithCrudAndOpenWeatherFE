@@ -1,0 +1,17 @@
+<div pFocusTrap class="container card flex align-items-center justify-content-center flex-wrap gap-3">
+    <form [formGroup]="formGroup">
+        <h1 class="title">Login</h1>
+        <div class="container-input">
+            <label for="username">Username</label>
+            <input id="input" type="text" placeholder="username" formControlName="username" size="30" pInputText>
+        </div>
+        <div class="container-input">
+            <label for="password">Password</label>
+            <input id="input" type="text" placeholder="password" formControlName="password" size="30" pInputText>
+        </div>
+        <div class="container-input submit-button">
+            <p-button icon="pi pi-check" label="Submit" />
+        </div>
+
+    </form>
+</div>

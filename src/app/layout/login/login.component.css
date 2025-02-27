@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    background-color: rgba(248, 246, 246, 0.964);
+    border-radius: 2%;
+    padding: 80px;
+    padding-bottom: 300px;
+    gap: 10px;
+}
+
+.container-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5px;
+    font-size: 13px;
+    gap: 10px;
+}
+
+.container-input label {
+    align-self: flex-start;
+    text-align: left;
+}
+
+.submit-button {
+    margin-top: 25px;
+}
+
+.title {
+    font-family: sans-serif;
+}
