@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-vetrina',
@@ -7,9 +8,9 @@ import { Component } from '@angular/core';
 })
 export class VetrinaComponent {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   goToLogin() {
-    window.location.href = '/login';
+    this.router.navigate(['/login']);
   }
 }
