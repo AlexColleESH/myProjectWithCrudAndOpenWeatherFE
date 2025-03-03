@@ -16,4 +16,8 @@ export class LoginComponent implements OnInit {
   });
   }
 
+  onSubmit() {
+    console.log('Form Data', this.formGroup.value);
+  }
+
 }

@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f8f9fa;
+  }
+  
+  .hero-section {
+    text-align: center;
+    margin-top: 50px;
+  
+    h1 {
+  font-size: 3rem;
+  background: linear-gradient(to left, white, rgb(5, 5, 61));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+  
+    p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .container-button {
+      margin-top: 50px;
+    }
+
+    
+  }
+  
